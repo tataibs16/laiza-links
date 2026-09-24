@@ -1,0 +1,13 @@
+LINK DA BIO — DRA. LAÍZA PESSOTTI
+
+Arquivos recuperados da versão publicada em linksuteislaiza2.vercel.app em 24/09/2026.
+O HTML e o CSS da página estão em index.html; mantenha a pasta assets ao lado dele.
+
+Para editar: abra a pasta laiza-links-recuperado no VS Code e altere index.html.
+Antes de publicar, substitua os quatro valores href abaixo pelos links oficiais:
+  #link-whatsapp
+  #link-instagram
+  #link-email
+  #link-localizacao
+
+Este pacote reconstitui a página pública; a formatação do HTML pode diferir do arquivo original enviado à Vercel.

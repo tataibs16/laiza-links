@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Canais oficiais da Dra. Laíza Pessotti para atendimento médico em saúde mental, conteúdos e contato.">
+    <title>Links | Dra. Laíza Pessotti</title>
+    <link rel="icon" href="assets/favicon-laiza.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon-laiza.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Montserrat:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --paper: #fdfcf9;
+        --ink: #5e5b59;
+        --blue-deep: #667e80;
+        --blue-pale: #c9d3d2;
+        --line: rgba(102, 126, 128, 0.24);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 16% 10%, rgba(201, 211, 210, 0.32), transparent 28rem),
+          #f1f2f0;
+        font-family: "Montserrat", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .page-shell {
+        min-height: 100svh;
+      }
+
+      .bio-page {
+        width: min(100%, 500px);
+        min-height: 100svh;
+        margin: 0 auto;
+        overflow: hidden;
+        background: var(--paper);
+        box-shadow: 0 0 60px rgba(70, 83, 83, 0.12);
+      }
+
+      .portrait-hero {
+        width: 100%;
+        aspect-ratio: 800 / 705;
+        background: var(--paper) url("assets/background-laiza.jpg") top center / 100% auto no-repeat;
+      }
+
+      .intro {
+        position: relative;
+        z-index: 1;
+        margin-top: -0.6rem;
+        padding: 0 2rem 1.9rem;
+        text-align: center;
+      }
+
+      .brand-mark {
+        width: min(78vw, 330px);
+        aspect-ratio: 650 / 164;
+        margin: 0 auto 1rem;
+        background: #706b6a;
+        -webkit-mask-image: url("assets/logo-laiza.png");
+        -webkit-mask-position: center 40%;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-size: 110% auto;
+        mask-image: url("assets/logo-laiza.png");
+        mask-position: center 40%;
+        mask-repeat: no-repeat;
+        mask-size: 110% auto;
+      }
+
+      .welcome {
+        margin: 0;
+        color: #777473;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(1.08rem, 4.7vw, 1.28rem);
+        font-weight: 500;
+        line-height: 1.28;
+      }
+
+      .welcome::first-line {
+        color: var(--blue-deep);
+      }
+
+      .link-list {
+        display: grid;
+        gap: 1.65rem;
+        padding: 1.25rem 1.45rem 3rem;
+      }
+
+      .link-card {
+        position: relative;
+        display: flex;
+        min-height: 8.45rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.15rem 1.25rem 1.2rem;
+        overflow: visible;
+        border: 1px solid rgba(255, 255, 255, 0.52);
+        border-radius: 1.1rem 0 1.1rem 0;
+        color: white;
+        text-align: center;
+        box-shadow: 0 16px 34px rgba(101, 126, 128, 0.14);
+        transition: transform 180ms ease, box-shadow 180ms ease;
+      }
+
+      .link-card:hover,
+      .link-card:focus-visible {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 40px rgba(101, 126, 128, 0.22);
+      }
+
+      .link-card:focus-visible {
+        outline: 3px solid rgba(102, 126, 128, 0.32);
+        outline-offset: 4px;
+      }
+
+      .card-1 {
+        background:
+          linear-gradient(120deg, rgba(255, 255, 255, 0.1), transparent 52%),
+          linear-gradient(135deg, #789092, #a9b9b8);
+      }
+
+      .card-2 {
+        background:
+          linear-gradient(120deg, rgba(255, 255, 255, 0.1), transparent 52%),
+          linear-gradient(135deg, #a9b9b8, #788f91);
+      }
+
+      .card-3 {
+        background:
+          linear-gradient(120deg, rgba(255, 255, 255, 0.12), transparent 52%),
+          linear-gradient(135deg, #71898b, #a8b8b7);
+      }
+
+      .card-4 {
+        background:
+          linear-gradient(120deg, rgba(255, 255, 255, 0.12), transparent 52%),
+          linear-gradient(135deg, #9eafae, #6e8587);
+      }
+
+      .link-eyebrow {
+        position: absolute;
+        top: -0.85rem;
+        left: 50%;
+        min-width: 11.5rem;
+        padding: 0.42rem 1.35rem;
+        transform: translateX(-50%);
+        background: var(--blue-deep);
+        box-shadow: 0 8px 22px rgba(84, 105, 106, 0.18);
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.35em;
+        line-height: 1;
+      }
+
+      .link-title {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(2rem, 9vw, 2.65rem);
+        font-weight: 500;
+        line-height: 0.95;
+        text-shadow: 0 1px 1px rgba(61, 77, 77, 0.12);
+      }
+
+      .link-subtitle {
+        margin-top: 0.65rem;
+        font-size: 0.66rem;
+        font-weight: 500;
+        letter-spacing: 0.13em;
+        line-height: 1.45;
+        text-transform: uppercase;
+      }
+
+      .professional-note {
+        position: relative;
+        margin: 0 1.45rem 2.2rem;
+        padding: 2.25rem 1.55rem 2rem;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 0 1.25rem 0 1.25rem;
+        background:
+          linear-gradient(135deg, rgba(201, 211, 210, 0.2), transparent 58%),
+          rgba(255, 255, 255, 0.86);
+        text-align: center;
+      }
+
+      .professional-note::after {
+        position: absolute;
+        right: -2.2rem;
+        bottom: -2.7rem;
+        width: 8.4rem;
+        height: 8.4rem;
+        border: 1px solid rgba(102, 126, 128, 0.1);
+        border-radius: 50%;
+        content: "";
+      }
+
+      .note-kicker {
+        margin: 0 0 0.55rem;
+        color: var(--blue-deep);
+        font-size: 0.63rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        line-height: 1.5;
+      }
+
+      .professional-note h1 {
+        margin: 0;
+        color: #6e6a68;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(2rem, 8vw, 2.6rem);
+        font-weight: 500;
+        line-height: 1;
+      }
+
+      .professional-note > p:not(.note-kicker) {
+        max-width: 25rem;
+        margin: 1rem auto 0;
+        color: #858281;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: 1.08rem;
+        line-height: 1.42;
+      }
+
+      .brand-line {
+        display: flex;
+        width: min(15rem, 72%);
+        align-items: center;
+        gap: 0.6rem;
+        margin: 1.45rem auto 0;
+      }
+
+      .brand-line span {
+        height: 1px;
+        flex: 1;
+        background: var(--line);
+      }
+
+      .brand-line i {
+        width: 0.35rem;
+        height: 0.35rem;
+        transform: rotate(45deg);
+        border: 1px solid rgba(102, 126, 128, 0.5);
+      }
+
+      @media (min-width: 501px) {
+        .page-shell {
+          padding: 2.5rem 1rem;
+        }
+
+        .bio-page {
+          border-radius: 1.75rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        .link-card {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+<body>
+    <main class="page-shell">
+      <article class="bio-page" aria-label="Links da Dra. Laíza Pessotti">
+        <header class="portrait-hero" aria-label="Dra. Laíza Pessotti">
+          <span class="sr-only">
+            Retrato da Dra. Laíza Pessotti em uma composição com os pássaros de sua marca.
+          </span>
+        </header>
+
+        <section class="intro">
+          <div class="brand-mark" role="img" aria-label="Dra. Laíza Pessotti, médica"></div>
+          <p class="welcome">
+            Seja muito bem-vinda(o) aos meus links.<br>
+            Escolha abaixo o canal que deseja acessar
+          </p>
+        </section>
+
+        <!-- Troque os quatro href abaixo pelos links oficiais da Dra. Laíza. -->
+        <nav class="link-list" aria-label="Canais de contato">
+          <a class="link-card card-1" href="#link-whatsapp">
+            <span class="link-eyebrow">AGENDAR</span>
+            <span class="link-title">Atendimento médico</span>
+            <span class="link-subtitle">Agende com facilidade pelo nosso WhatsApp</span>
+          </a>
+
+          <a class="link-card card-2" href="#link-instagram">
+            <span class="link-eyebrow">ACOMPANHAR</span>
+            <span class="link-title">Instagram</span>
+            <span class="link-subtitle">Conteúdos sobre saúde mental</span>
+          </a>
+
+          <a class="link-card card-3" href="#link-email">
+            <span class="link-eyebrow">CONTATO</span>
+            <span class="link-title">E-mail</span>
+            <span class="link-subtitle">Envie a sua mensagem</span>
+          </a>
+
+          <a class="link-card card-4" href="#link-localizacao">
+            <span class="link-eyebrow">LOCALIZAÇÃO</span>
+            <span class="link-title">Consultório</span>
+            <span class="link-subtitle">Veja o endereço e como chegar</span>
+          </a>
+        </nav>
+
+        <footer class="professional-note">
+          <p class="note-kicker">ATENDIMENTO MÉDICO EM SAÚDE MENTAL</p>
+          <h1>Dra. Laíza Pessotti</h1>
+          <p>Acompanhamento individualizado com ética e acolhimento.</p>
+          <div class="brand-line" aria-hidden="true"><span></span><i></i><span></span></div>
+        </footer>
+      </article>
+    </main>
+  
+
+</body>
+</html>
